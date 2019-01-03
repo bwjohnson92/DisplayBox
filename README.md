@@ -3,7 +3,13 @@ FFXI Gearswap Addition
 
 Include the file in any gearswap project, and call **text_setup()** to set up the box.
 
-Add your own color pairs by calling **addTextColorPair(stringForText, color)**.
+Add your own color pairs by calling **addTextColorPair(stringForText, color). Example:** 
+
+```lua
+addTextColorPair("true", "green") --Whenever the value true is seen, it will be colored green (Done by default)
+```
+
+Default color pairs are true: green and false: red
 
 Best practice involves having an **updateTable()** function that is called whenever you update a required variable, like follows:
 
