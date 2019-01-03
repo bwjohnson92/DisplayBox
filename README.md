@@ -23,7 +23,7 @@ function updateTable()
 end
 ```
 
-##Available functions to call
+## Available functions to call
 
 ```lua
 text_setup() --Will instantiate the entire system, call first
